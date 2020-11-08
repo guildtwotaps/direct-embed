@@ -1,0 +1,17 @@
+<html>
+<head></head>
+<body>
+
+<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+<div id="stream"></div>
+<script type="text/javascript">
+  var options = {
+    width: '100%',
+    height: '100%',
+    channel: "guildtwotaps_direct",
+  };
+  var player = new Twitch.Player("stream", options);
+  player.setVolume(0.5);
+</script>
+</body>
+</html>
